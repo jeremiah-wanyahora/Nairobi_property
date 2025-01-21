@@ -11,7 +11,7 @@
 1. Price: Indicates the price of the property (e.g., "KSh 350,000,000").
 2. PropertyType: Specifies the type of property (e.g., Townhouse, Vacant Land, Apartment).
 3. Location: The location of the property (e.g., Runda, Karen, Westlands).
-4. Bedroom: The number of bedrooms (if applicable).
-5. Bathroom: The number of bathrooms (if applicable).
+4. Bedroom: The number of bedrooms.
+5. Bathroom: The number of bathrooms.
 6. House size: The size of the house (e.g., in square meters).
 7. Land size: The size of the land (e.g., in acres).
