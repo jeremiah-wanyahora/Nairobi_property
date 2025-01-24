@@ -36,22 +36,23 @@
    - Insert an empty column next to column A.
 
    - Write this formula on cell B2
+   
+   - Copy the whole column B and overwrite column A using the Paste Values feature to get rid of the formula and remain with values.
+
+   - Delete the column B.
+
+   - Next, convert the new Price column(B) from a general format to a number format 
 
        ```excel
        =VALUE(SUBSTITUTE(A2, " ", ""))
        ```
      
-    - Copy the whole column B and overwrite column A using the Paste Values feature to get rid of the formula and remain with values.
 
-    - Delete the column B.
-
-    - Next, convert the new Price column(B) from a general format to a number format.
-
-   2. Handle missing or inconsistent data
+  2. Handle missing or inconsistent data
 
     - Update the bedroom, bathroom and House size columns to indicate 0 for rows that correspond with the propertyType of Vacant Land, Commercial Property and Industrial property.
     
-    #### For bedrooms
+#### For bedrooms
 
     - Insert a new column E beside the bedroom column 
 
@@ -63,7 +64,7 @@
        =IF(B2= "Vacant Land", 0, D2)
        ```
  
-    #### For bathroom:
+#### For bathroom:
 
     - Insert a new column F beside the bathroom column 
 
@@ -75,7 +76,7 @@
        =IF(B2= "Vacant Land", 0, E2)
        ```
 
-    #### For House size:
+#### For House size:
 
     - Insert a new column G beside the house size column 
 
@@ -87,7 +88,7 @@
        =IF(B2= "Vacant Land", 0, F2)
        ```
 
-    #### For Land Size
+#### For Land Size
      
     - Update the land size column to indicate zero for rows that correspond with the 'propertyType' of Apartment.
 
@@ -99,7 +100,7 @@
         ```excel
        =IF(F2= "mÂ²", 0, G2)
        ``` 
-         
+
    3. Spelling mistakes
 
       - Correct cell G21 from 399 mÂ²" to 399 mÂ²
