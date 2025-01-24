@@ -31,7 +31,11 @@
 
      - This will remove the spaces and the "KSh" denomination effectively. Flash fill to execute the formula along the whole column.
 
-    - Remove the spaces between the numbers using the substitute function too.
+ #### Remove the spaces between the numbers.
+
+   - Insert an empty column next to column A.
+
+   - Write this formula on cell B2
 
        ```excel
        =VALUE(SUBSTITUTE(A2, " ", ""))
@@ -45,11 +49,13 @@
 
    2. Handle missing or inconsistent data
 
-    - Update the 'bedroom', 'bathroom' and 'House size' columns to indicate 0 for rows that correspond with the 'propertyType' of Vacant Land, Commercial Property and Industrial property.For bedrooms:
+    - Update the bedroom, bathroom and House size columns to indicate 0 for rows that correspond with the propertyType of Vacant Land, Commercial Property and Industrial property.
+    
+    - For bedrooms:
 
-    - Insert a new column(E) beside the bedroom column 
+    - Insert a new column E beside the bedroom column 
 
-    - Use the IF formula as follows and flash fill, then copy column E and Paste Values only onto the Bedroom column(D) and rename it Bedroom(Cleaned):
+    - Use the IF formula as follows and flash fill, then copy column E and Paste Values only onto the Bedroom column D and rename it to cleaned:
 
         ```excel
         =IF(B2= "Vacant Land", 0, D2)
@@ -59,9 +65,9 @@
 
     -For bathroom:
 
-    - Insert a new column(F) beside the bathroom column 
+    - Insert a new column F beside the bathroom column 
 
-    - Use the IF formula as follows and flash fill, then copy column F and Paste Values only onto the Bedroom column(E) and rename it Bathroom(Cleaned):
+    - Use the IF formula as follows and flash fill, then copy column F and Paste Values only onto the Bathroom column E and rename it to Cleaned:
 
        ```excel
        =IF(B2= "Vacant Land", 0, E2)
@@ -71,8 +77,9 @@
 
     -For House size:
 
-    - Insert a new column(G) beside the house size column 
-    - Use the IF formula as follows and flash fill, then copy column G and Paste Values only onto the Bedroom column(F) and rename it House size(Cleaned)
+    - Insert a new column G beside the house size column 
+    
+    - Use the IF formula as follows and flash fill, then copy column G and Paste Values only onto the house size column F and rename it to Cleaned
 
        ```excel
        =IF(B2= "Vacant Land", 0, F2)
@@ -80,11 +87,11 @@
 
     - Delete column G
      
-    - Update the 'land size' column to indicate zero(0) for rows that correspond with the 'propertyType' of Apartment.
+    - Update the land size column to indicate zero for rows that correspond with the 'propertyType' of Apartment.
 
     - On column H beside the land size column.
 
-    - Use the IF formula as follows and flash fill, then copy column G and Paste Values only onto the Bedroom column(F) and rename it House size(Cleaned)
+    - Use the IF formula as follows and flash fill, then copy column G and Paste Values only onto the land size column F and rename it cleaned.
 
         ```excel
        =IF(F2= "mÂ²", 0, G2)
