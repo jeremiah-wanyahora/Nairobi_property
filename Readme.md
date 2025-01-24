@@ -51,54 +51,55 @@
 
     - Update the bedroom, bathroom and House size columns to indicate 0 for rows that correspond with the propertyType of Vacant Land, Commercial Property and Industrial property.
     
-    - For bedrooms:
+    #### For bedrooms
 
     - Insert a new column E beside the bedroom column 
 
-    - Use the IF formula as follows and flash fill, then copy column E and Paste Values only onto the Bedroom column D and rename it to cleaned:
-
-        ```excel
-        =IF(B2= "Vacant Land", 0, D2)
-        ```
+    - Use the IF formula as follows and flash fill, then copy column E and Paste Values only onto the Bedroom column D and rename it to cleaned
 
     - Delete column E
 
-    -For bathroom:
+       ```excel
+       =IF(B2= "Vacant Land", 0, D2)
+       ```
+ 
+    #### For bathroom:
 
     - Insert a new column F beside the bathroom column 
 
     - Use the IF formula as follows and flash fill, then copy column F and Paste Values only onto the Bathroom column E and rename it to Cleaned:
+    
+    - Delete column F
 
        ```excel
        =IF(B2= "Vacant Land", 0, E2)
        ```
 
-    - Delete column F.
-
-    -For House size:
+    #### For House size:
 
     - Insert a new column G beside the house size column 
-    
+
     - Use the IF formula as follows and flash fill, then copy column G and Paste Values only onto the house size column F and rename it to Cleaned
+    
+    - Delete column G
 
        ```excel
        =IF(B2= "Vacant Land", 0, F2)
        ```
 
-    - Delete column G
+    #### For Land Size
      
     - Update the land size column to indicate zero for rows that correspond with the 'propertyType' of Apartment.
 
     - On column H beside the land size column.
 
-    - Use the IF formula as follows and flash fill, then copy column G and Paste Values only onto the land size column F and rename it cleaned.
-
-        ```excel
-       =IF(F2= "mÂ²", 0, G2)
-       ```
+    - Use the IF formula as follows and flash fill, then copy column G and Paste Values only onto the land size column F and rename it cleaned
 
     - Delete column H.
-
+        ```excel
+       =IF(F2= "mÂ²", 0, G2)
+       ``` 
+         
    3. Spelling mistakes
 
       - Correct cell G21 from 399 mÂ²" to 399 mÂ²
