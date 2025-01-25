@@ -85,7 +85,7 @@
     - Delete column G
 
        ```excel
-       =IF(B2= "Vacant Land", 0, F2)
+        =IF(B2= "Vacant Land", 0, F2)
        ```
 
 #### For Land Size
@@ -144,6 +144,23 @@
 
 
 ## Data Analysis
+
+### 1. Pricing Analysis
+
+ - This is a breakdown of how different property Types are priced all over Nairobi.
+ - Create a new sheet and name it Pricing Analysis.
+ - Drag the Property type column on to the rows pane.
+ - Drag the price column all the way to the Values pane, set the field to average.
+ - Insert a column chart to visualize the pricing analysis.
+ - Calculate the Average of property prices using the formula below
+   
+   ```excel
+   =AVERAGE(C4:C8)
+   ```
+- Use conditional formatting to highlight cells greater than the average.
+- You easily notice that Apartment and Industrial Property property types are the outliers since their average price is far below the average property prices.
+
+![Excel Screenshot](images/Pricing_Analysis.png)
 
 
 
