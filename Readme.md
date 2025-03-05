@@ -162,6 +162,26 @@
 
 ![Excel Screenshot](images/Pricing_Analysis.png)
 
+### 2. Location Trends
+
+ - This is to show the highest and lowest average prices according to location.
+ - Create a new sheet and name it location trends
+ - Insert a pivot table on this sheet
+ - Drag the location to rows and price to values and set it to average price.
+ - Add a column chart to visualize it.
+  
+  #### Property Type Distribution by location
+
+- Create a pivot table
+- Drag location to rows
+- Drag property type to columns
+- Drag price to values. Set to count. 
+
+![Excel Screenshot](images/Location_trends.png)
+
+
+
+
 
 
 
