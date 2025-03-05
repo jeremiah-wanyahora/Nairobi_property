@@ -179,6 +179,25 @@
 
 ![Excel Screenshot](images/Location_trends.png)
 
+### 3. Regional Insights
+
+- Create a new sheet named Regional_insights and add a pivot table.
+- Drag the location to rows.
+- Drag the propertyType to columns.
+- Drag the propertyType to values and set to count.
+- Visualize using a heatmap (conditional formatting)
+
+  #### Variability in Prices along locations
+
+  - Create a pivot table.
+  - Drag location to rows.
+  - Drag price to values and set to standard deviation.
+  - Use a column chart to display variability
+
+![Excel Screenshot](images/Regional_insights.png)
+
+### 4. Market Segmentation
+
 
 
 
