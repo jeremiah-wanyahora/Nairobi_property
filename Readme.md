@@ -198,6 +198,9 @@
 
 ### 4. Market Segmentation
 
+- This aims at categorizing properties by price tiers.
+- On the cleaned worksheet, create a new column using the if function
+
 
 
 
