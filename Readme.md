@@ -199,7 +199,9 @@
 ### 4. Market Segmentation
 
 - This aims at categorizing properties by price tiers.
+
 - Duplicate the Cleaned Worksheet(Sheet2), and name the new sheet Price Tier.
+
 - Create a new column using the IF function below
 
 ```Excel
@@ -207,9 +209,13 @@
 ```
 
 -This separates the prices into three tiers of Budget, Mid-Range and Luxury.
+
 - Next, on the new Cleaned worksheet, create a pivot table.
+
 - On the rows window, drag the price tier column
+
 - On the values window propertyType or Location.
+
 - Insert a pie chart to visualize how the market is segmented. 
 
 ![Excel Screenshot](images/Market_segmentation.png)
@@ -218,6 +224,7 @@
     i. Budget
     ii. Luxury
     iii. Mid-Range
+    
 - Market Segmentation is essential in providing data driven insights to show potential stakeholders that would want to invest in the Nairobi real estate industry.
 
 
