@@ -224,9 +224,20 @@
     i. Budget
     ii. Luxury
     iii. Mid-Range
-    
+
 - Market Segmentation is essential in providing data driven insights to show potential stakeholders that would want to invest in the Nairobi real estate industry.
 
+## Data Visualization
+
+- The different charts generated from the pivot tables are to be compiled on a new sheet named "Dashboard". For this circumstance we separated the screeenshot image into part 1 and 2 so that it could fit well.
+
+- Insert a slicer for the location on the market segmentation and average pricing.
+
+- The dashboard will appear as follows;
+
+![Excel Screenshot](images/Dashboard_pt1.png)
+
+![Excel Screenshot](images/Dashboard_pt2.png)
 
 
 
