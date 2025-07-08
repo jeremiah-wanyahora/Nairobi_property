@@ -239,6 +239,36 @@
 
 ![Excel Screenshot](images/Dashboard_pt2.png)
 
+## Insights/ Data-driven conclusions
 
+- These are the valid conclusions drawn from the data analysis conducted above;
+    
+#### I. High End neighbourhoods dominate price
+
+-Townhouses in Runda and Muthaiga lead the market, with average listing prices exceeding Ksh. 200 million.
+
+- Apartments in Westlands and Kilimani show premium pricing, averaging above Ksh. 15 million.
+
+#### II. Vacant Land is surprisingly expensive
+
+- Despite lacking bedrooms and house structures, vacant land in Westlands and Karen ranks among the most expensive listings, often surpassing Ksh. 100 million. 
+
+- This indicates location and land potential are strong value drivers.
+
+#### III. Property Types are Unevenly Distributed
+
+- Apartments dominate the listing volume, followed by townhouses and vacant land.
+
+- Few listings for mansionettes, indicating limited supply or exclusivity.
+
+#### IV. Market Segmentation Reveals Three Distinct Tiers
+
+- Budget Segment (< Kshs 30M): Primarily made up of apartments in densely populated areas like South B, Embakasi, and Roysambu. These are ideal for first-time buyers or rental investors targeting the middle-income market.
+
+- Mid-Range Segment (Kshs 30M - 100M): Dominated by townhouses and maisonettes in growing suburbs like Lavington, Kileleshwa, and Kilimani. These attract professionals and upper-middle-class families.
+
+- Luxury Segment (> Kshs 100M): Includes vacant land and large standalone homes in Karen, Runda, and Muthaiga. These properties are aimed at high-net-worth individuals and developers looking for premium investments.
+
+- Note: This segmentation helps stakeholders (buyers, investors, and real estate developers) target the right market according to budget and property type.
 
 
