@@ -245,7 +245,7 @@
     
 #### I. High End neighbourhoods dominate price
 
--Townhouses in Runda and Muthaiga lead the market, with average listing prices exceeding Ksh. 200 million.
+- Townhouses in Runda and Muthaiga lead the market, with average listing prices exceeding Ksh. 200 million.
 
 - Apartments in Westlands and Kilimani show premium pricing, averaging above Ksh. 15 million.
 
@@ -271,4 +271,4 @@
 
 - Note: This segmentation helps stakeholders (buyers, investors, and real estate developers) target the right market according to budget and property type.
 
-![Excel Screenshot](images/Nairobi_property_key_insights)
+![Excel Screenshot](images/Nairobi_property_key_insights.png)
