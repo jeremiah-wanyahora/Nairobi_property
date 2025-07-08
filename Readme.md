@@ -271,4 +271,4 @@
 
 - Note: This segmentation helps stakeholders (buyers, investors, and real estate developers) target the right market according to budget and property type.
 
-
+![Excel Screenshot](images/Nairobi_property_key_insights)
